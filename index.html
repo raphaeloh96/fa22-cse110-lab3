@@ -20,7 +20,7 @@
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#audio-recording">Audio Recording</a></li>
                 <li><a href="#video-recording">Video Recording</a></li>
-                <li><a href="#comment">Comments</a></li>
+                <li><a href="#comments">Comments</a></li>
             </ul>
         </nav>
     </header>
@@ -204,7 +204,55 @@
         </video>
     </section>
 
-    
+    <hr>
+    <section id="comments">
+        <h2>Additional Comments After Today's Meeting</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Submit Your Comment Here</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name"><br><br><br>
+
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email"><br><br><br>
+
+                    <label for="role">Select Your Location + Role:</label>
+                    <select name="role" id="role">
+                        <optgroup label="Buena Park">
+                            <option value="Manager">Manager</option>
+                            <option value="SWorker">Store Worker</option>
+                            <option value="Stringer">Stringer</option>
+                            <option value="CSupport">Customer Support</option>
+                        </optgroup>
+
+                        <optgroup label="Fullerton">
+                            <option value="Manager">Manager</option>
+                            <option value="SWorker">Store Worker</option>
+                            <option value="Stringer">Stringer</option>
+                            <option value="CSupport">Customer Support</option>
+                        </optgroup>
+                    </select><br><br><br>
+                    
+                    <label for="subject">Choose Subject for Comment:</label>
+                    <input list="subjects" name="subject" id="subject">
+                    <datalist id="subjects">
+                        <option value="Questions">
+                        <option value="Improvements">
+                        <option value="Concerns">
+                        <option value="Other">
+                    </datalist><br><br><br>
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" placeholder="Write Your Comment Here.."></textarea><br><br><br>
+
+                    <button type="submit">Submit</button>
+                    
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
 
 
 
