@@ -1,5 +1,10 @@
 body {
-    background-color: #FFF9F9;
+    background-color: #C6EBC5;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 36px;
+}
+
+
+#video-recording {
+    margin: 1cm auto 2in auto;
 }
