@@ -1,10 +1,83 @@
-
+* {
+    color: black;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 36px;
 }
 
 
-#video-recording {
-    margin: 1cm auto 2in auto;
+#navbar ul li a {
+    text-decoration: none;
 }
+
+#navbar ul li a:active {
+    text-decoration: underline;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2em;
+    margin: auto;
+    position: static;
+}
+
+
+video {
+    position: relative;
+    display: block;
+    margin: 1cm auto 0.5in auto;
+    padding: 6px;
+}
+
+audio {
+    display: block;
+    margin: 1cm auto 0.5in auto;
+    padding: 6px;
+}
+
+
+.company-logo {
+    width: 20vw;
+    height: auto;
+    max-width: 40vw;
+    max-height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+form {
+    width: 50vw;
+    padding: 8px 120px 24px 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(250, 112, 112, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.center-heading {
+    text-align: center;
+}
+
+.center-heading:hover {
+    color: purple;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        display: none;
+    }
+  }
